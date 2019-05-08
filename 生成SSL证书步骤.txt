@@ -1,0 +1,11 @@
+在dos窗口下键入：
+keytool -genkeypair -alias "test1" -keyalg "RSA" -keystore "test.keystore"
+
+回车后
+	注意：
+
+　　1.密钥库的密码至少必须6个字符，可以是纯数字或者字母或者数字和字母的组合等等
+
+　　2."名字与姓氏"应该是输入域名（本地如localhost），而不是我们的个人姓名，其他的可以不填；
+
+具体可以参考：https://www.cnblogs.com/xdp-gacl/p/3750965.html
